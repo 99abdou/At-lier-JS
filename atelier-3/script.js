@@ -13,6 +13,9 @@ function insererOrdre(balise, EntrerTexte) {
     main.append(toutAfficher);
 }
 
-insererOrdre('h1', "On fait un meet 1")
+insererOrdre('p', "On fait un meet 1")
+insererOrdre('div', "On fait un meet 1")
+insererOrdre('li', "On fait un meet 1")
+insererOrdre('section', "On fait un meet 1")
 
   

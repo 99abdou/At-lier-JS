@@ -22,11 +22,8 @@
 // 
 
 var maBalises = ['div', 'h1', 'li', 'p', 'span', 'h2','h4'];
-prompt('Inséréz la balise :');
+prompt('Merci d\'nséréz la balise :');
 
-if (maBalises) {
-    
-}
 
 
 

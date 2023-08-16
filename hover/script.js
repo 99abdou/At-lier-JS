@@ -7,7 +7,7 @@ const click1 = document.querySelector(".click-1");
 
 
 click1.addEventListener("mouseenter", () =>{
-     // questionContainer.style.background = "blue";
+    click1.style.background = "blue";
     click1.classList.add("border-radius");
 })
 

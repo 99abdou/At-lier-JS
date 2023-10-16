@@ -137,9 +137,9 @@ boxes.forEach((box) => {
 });
 
 //addEventListener Vs onclick
-// document.body.onclick = function () {
-//      console.log("Scroll !!");
-// };
+document.body.onclick = function () {
+     console.log("Scroll !!");
+};
 
 // Bubbling => fin (de base l'eventlistner est paramétré en mode Bubbling)
 document.body.addEventListener("click", () => {
@@ -157,23 +157,24 @@ document.body.addEventListener(
 
 // -----------------------------------------------------------------------------
 // stop propagation
-// questionContainer.addEventListener("click", () => {
-//      alert("test !!")
-//      e.stopPropagation();
-// });
+questionContainer.addEventListener("click", () => {
+     alert("test !!")
+     e.stopPropagation();
+});
 
 // removeEventListener
 
 // --------------------------------------------------------------------------
 // BOM
 
-// console.log(window.innerHeight);
-// console.log(window.scrollY);
-// Window.open("http://google.com", "cours js", "height=600, width=800");
-// window.close();
+console.log(window.innerHeight);
+console.log(window.scrollY);
+Window.open("http://google.com", "cours js", "height=600, width=800");
+window.close();
 
 // évenment adosée à window
-// alert("hello");
+
+alert("hello");
 
 // Confirm
 btn2.addEventListener("click", () => {

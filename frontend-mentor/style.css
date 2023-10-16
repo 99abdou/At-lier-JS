@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Space Mono', monospace;
+    margin: 0;
+    font-size: 24px;
+    background: rgb(240, 5, 5);
+    color: rgb(84, 79, 79);
+}
+
+h1{
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 0.5rem;
+    margin: 3rem 0;
+    opacity: 0.6;
+}
+
+h3{
+    font-size: 2rem;
+    margin: 0;
+    color: green;
+}
+.container{
+    width: 60%;
+    margin: auto;
+    margin: 50px auto;
+    padding: 2rem;
+    background: white;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    width: 100%;
+    padding: 0;
+    border: 0;
+    height: 2rem;
+    font-family: inherit;
+    font-size: 1.4rem;
+    text-align: end;
+    background: rgb(234, 230, 230);
+}
+
+input:hover, button:hover{
+    cursor: pointer;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.tip-grid{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 1rem 0 0 0;
+    padding: 0;
+    row-gap: 1rem;
+}
+
+.btn_btn-primary{
+    width: 30%;
+}
+
+.btn_btn-primary button, .btn_btn-primary input{
+    height: 2.5rem;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 0;
+    width: 100%;
+}
+
+.btn_btn-primary button{
+    background:#313134 ;
+    color: white !important;
+}
+
+.btn_btn-primary button.active{
+    background: #EAEAFB;
+    color: white;
+}
+
+.btn_btn-primary input{
+    text-align: center;
+}
+
+.result{
+    width: 47%;
+    background-color: #313134;
+    border-radius: 10px;
+    color: white;
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+.result div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.result .tip, .result .tip-total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.result button{
+    width: 50%;
+    padding: 0.6rem 0;
+    margin-top: 5%;
+    font-family: inherit;
+    font-size: 1rem;
+    border: 0;
+    border-radius: 5px;
+    background: rgb(25, 25, 25);
+    color: #5c5c5e;
+}
+@media screen and (max-width:772px) {
+    .container{
+        height: 100%;
+    }
+
+    .row{
+        margin-bottom: 100px;
+    }
+    
+    input{
+        width: 250px;;
+    }
+
+    .btn{
+        width: 90px;
+    }
+}

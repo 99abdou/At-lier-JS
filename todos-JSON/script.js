@@ -14,7 +14,7 @@ fetch("https://jsonplaceholder.typicode.com/todos/")
     
     const todos = todos1.filter(element => element.completed == false)
     console.log(todos1);
-    console.log(todos);
+    console.log(todos, 'test');
     for (const i of todos) {
         let t = document.createElement('tr')
         t.innerHTML = `
